@@ -437,6 +437,9 @@ a {
     background-color: var(--neutral-900);
     color: var(--neutral-white)
 }
+.btn-neutral:hover {
+    background-color: var(--neutral-700);
+}
 .btn-outline {
     border: 1px solid var(--neutral-300);
 }
@@ -572,6 +575,9 @@ a {
     }
     .f-m-direction {
         flex-direction: row-reverse;
+    }
+    .overflow-m-auto {
+        overflow: auto;
     }
 }
 @media (max-width: 576px) {

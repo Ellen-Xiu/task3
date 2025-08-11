@@ -2,7 +2,7 @@
 
 
 /*main*/
-.shoes-row{
+.shoes-row {
     display: flex;
     margin-left: -4px;
     margin-right: -4px;
@@ -13,9 +13,11 @@
     width: calc(100% / 12 * 6);
 }
 @media (max-width: 767px) {
-    .shoes-col {
+    .shoes-row {
         margin-left: -12px;
         margin-right: -12px;
+    }
+    .shoes-col {
         padding-left: 0px;
         padding-right: 0px;
         width: 100%;
@@ -35,6 +37,10 @@
 .shop-btn, .collect-btn {
     width: 50%;
 }
+.collect-btn:hover {
+    background-color: var(--neutral-900);
+    color: var(--neutral-white);
+}
 @media (max-width: 576px) {
     .shop-btn {
         width: 84%;
@@ -48,4 +54,16 @@
 }
 .shoes-information {
     border-bottom: 1px solid var(--neutral-300);
+}
+
+@media (max-width:767px) {
+    .like-m-row {
+        margin-left: -8px;
+        margin-right: -8px;
+    }
+    .like-m-col {
+        min-width: 300px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
 }
